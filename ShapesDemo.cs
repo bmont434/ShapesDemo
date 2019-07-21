@@ -97,7 +97,7 @@ class Rectangle : GeometricFigure
     }
 }
 
-class Square : Rectangle
+class Square : GeometricFigure
 {
     public override int ComputeArea()
     {
@@ -119,7 +119,7 @@ class Square : Rectangle
     }   
 }
 
-class Triangle : Square
+class Triangle : GeometricFigure
 {
     public override int ComputeArea()
     {
